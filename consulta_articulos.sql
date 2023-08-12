@@ -1,0 +1,1 @@
+SELECT nombre, precio FROM Articulos;
