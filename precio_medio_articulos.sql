@@ -1,0 +1,1 @@
+SELECT avg(precio) as Precio_promedio from Articulos;

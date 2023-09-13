@@ -1,0 +1,1 @@
+SELECT a.nombre as Articulo, SUM(v.cantidad) as Total_vendido FROM Articulos a JOIN Ventas v ON a.id_articulo = v.id_articulo GROUP BY a.nombre;

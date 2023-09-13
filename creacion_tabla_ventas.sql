@@ -1,0 +1,1 @@
+CREATE TABLE Ventas(id_venta INTEGER PRIMARY KEY, id_articulo INTEGER, cantidad INTEGER, precio_unitario REAL);

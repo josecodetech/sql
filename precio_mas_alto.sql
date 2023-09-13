@@ -1,0 +1,1 @@
+SELECT a.nombre as Articulo, MAX(a.precio) as Precio_Maximo from Articulos a;

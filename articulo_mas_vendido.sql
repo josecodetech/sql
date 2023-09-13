@@ -1,0 +1,1 @@
+SELECT a.nombre as Articulo, MAX(v.cantidad) as Max_Cantidad_Vendida FROM Articulos a JOIN Ventas v on a.id_articulo = v.id_articulo GROUP BY a.nombre ORDER BY Max_Cantidad_Vendida DESC  LIMIT 1;

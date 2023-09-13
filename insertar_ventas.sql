@@ -1,0 +1,1 @@
+INSERT INTO Ventas (id_venta,id_articulo,cantidad,precio_unitario) VALUES (1,1,100,12.50),(2,2,75,18.25),(3,1,50,10.75),(4,3,200,9.99),(5,2,120,17.50);
