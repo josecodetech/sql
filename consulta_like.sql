@@ -1,0 +1,1 @@
+SELECT nombre from Articulos where nombre like '%Producto%';

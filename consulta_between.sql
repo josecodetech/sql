@@ -1,0 +1,1 @@
+SELECT * from Articulos where precio BETWEEN 10 and 30;
